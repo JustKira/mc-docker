@@ -12,7 +12,7 @@ services:
       CF_API_KEY: ${CF_API_KEY}
       CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4/files/6628107
       MEMORY: 10G
-      ONLINE_MODE: false
+      ONLINE_MODE: "FALSE"
       WHITELIST: |
         breakee
       SPAWN_PROTECTION: 0
