@@ -13,8 +13,8 @@ services:
       CF_PAGE_URL: https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4/files/6628107
       MEMORY: 10G
       ONLINE_MODE: "FALSE"
-      WHITELIST: |
-        breakee
+      # WHITELIST: |
+      #   breakee
       SPAWN_PROTECTION: 0
     volumes:
       - mc-data:/data
